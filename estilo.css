@@ -1,0 +1,100 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+}
+
+
+/* inicio cabeçalho */
+header{
+	display: flex;
+	margin-bottom: 5px;
+}
+
+header img{
+	width: 40px;
+	height: 45px;
+	margin: auto 0px auto 20px;;
+}
+
+header h2{
+	padding: 10px 10px;
+	color: red;
+}
+/* fim cabeçalho */
+
+/* inicio bloco1 */
+
+	section#bloco1{
+		position: relative;
+	}
+
+	.div-interna-bloc1{
+		width: 70%;
+		background-color: white;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		
+	}
+
+	table{
+		width: 100%;
+		border-collapse: collapse;
+		text-align: center;
+		background-color: black;
+		color: white;
+	}
+
+	td{
+		width: 33.3%;
+		padding: 5px;
+	}
+
+	td.aviao{
+		background-color: red;
+	}
+
+	div.div-interna-bloc1 h2{
+		font-size: 21px;
+		color: #2E2E2E;
+		padding: 25px 0px 15px 20px;
+	}
+
+	div.div-interna-bloc1 div.flex{
+		display: flex;
+	}
+
+	div.flex div{
+		width: 50%;
+		padding-left: 20px;
+	}
+
+	div.flex div label{
+		display: block;
+		font-size: 0.8em;
+	}
+
+	div.flex div input{
+		width: 95%;
+		height: 35px;
+		padding: 10px;
+	}
+
+	div.div-interna-bloc1 button{
+		margin: 15px 0px 25px 20px;
+		width: 200px;
+		height: 35px;
+		background-color: gray;
+		color: white;
+		border: 0;
+	}
+
+
+/* fim bloco1 */
